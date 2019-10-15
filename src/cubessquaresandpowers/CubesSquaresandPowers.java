@@ -46,7 +46,15 @@ public class CubesSquaresandPowers {
                     System.out.println("");
                     System.out.println("Total is " + num);
                 }
+                 
+                System.out.println("-----------------Chose Menu--------------------"); 
+                System.out.println("1. Find the value of a number squared (NOTE: 2^2 = 2 x 2");
+                System.out.println("2. Find the value of a number cubed (NOTE: 2^3 = 2 x 2 x 2)");
+                System.out.println("3. Find the value of a number, to any power.");
+                System.out.println("4. Exit");
                 System.out.println("-------------------------------------------------");
+            
+                option = user.nextInt();
                 break;
            
             case 2:
@@ -59,7 +67,15 @@ public class CubesSquaresandPowers {
                     System.out.println("");
                     System.out.println("Total is " + num);
                 }
-                System.out.println("-------------------------------------------------");
+                 
+               System.out.println("-----------------Chose option--------------------"); 
+               System.out.println("1. Find the value of a number squared (NOTE: 2^2 = 2 x 2");
+               System.out.println("2. Find the value of a number cubed (NOTE: 2^3 = 2 x 2 x 2)");
+               System.out.println("3. Find the value of a number, to any power.");
+               System.out.println("4. Exit");
+               System.out.println("-------------------------------------------------");
+            
+               option = user.nextInt(); 
                 break;
                 
             case 3:
@@ -74,8 +90,17 @@ public class CubesSquaresandPowers {
                     num = num1 * num;
                     System.out.println("");
                     System.out.println("Total is " + num);
-                }
+                }       
+                System.out.println("-----------------Chose option--------------------"); 
+                System.out.println("1. Find the value of a number squared (NOTE: 2^2 = 2 x 2");
+                System.out.println("2. Find the value of a number cubed (NOTE: 2^3 = 2 x 2 x 2)");
+                System.out.println("3. Find the value of a number, to any power.");
+                System.out.println("4. Exit");
                 System.out.println("-------------------------------------------------");
+            
+                option = user.nextInt();
+                
+                
                 break;
             
             case 4:
