@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author ajayk
+ * @author arkir7294
  */
 public class CubesSquaresandPowers {
 
@@ -17,13 +17,17 @@ public class CubesSquaresandPowers {
      */
     public static void main(String[] args) {
         //Variable Declaration Area
+       Scanner user = new Scanner (System.in);
+       
+       boolean exit = false;
+       
+       while (!exit){
+           
         int option;
         int num;
         int num1;
         int power;
         
-        
-        Scanner user = new Scanner (System.in);
         
         System.out.println("-----------------Chose option--------------------"); 
         System.out.println("1. Find the value of a number squared (NOTE: 2^2 = 2 x 2");
@@ -104,11 +108,17 @@ public class CubesSquaresandPowers {
                 break;
             
             case 4:
+                exit = true;
                 break;
         }
    
+        }
+           
+           
+           
+       }
+       
     
     
-    }
     
 }
