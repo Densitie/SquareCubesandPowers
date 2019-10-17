@@ -1,7 +1,6 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ *This is a exponent calculator made in java
+ *17 Oct 2019
  */
 package cubessquaresandpowers;
 import java.util.Scanner;
